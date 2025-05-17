@@ -5,12 +5,12 @@ const logoFile = 'https://mapim.home.blog/wp-content/uploads/2025/05/dizzer1200-
 const streamKey = 'fs56-ztuy-kuz9-pzgq-amqk';
 
 const ffmpegArgs = [
-  '-re', '-i', audioURL,
-  '-loop', '1', '-i', logoFile,
+  '-re', '-i', https://stream.zeno.fm/7wbprc3ce4qvv,
+  '-loop', '1', '-i', https://mapim.home.blog/wp-content/uploads/2025/05/dizzer1200-web.png?w=948,
   '-c:v', 'libx264', '-preset', 'veryfast', '-b:v', '3000k', '-maxrate', '3000k', '-bufsize', '6000k',
   '-pix_fmt', 'yuv420p',
   '-c:a', 'aac', '-b:a', '128k', '-ar', '44100',
-  '-f', 'flv', `rtmp://a.rtmp.youtube.com/live2/${streamKey}`
+  '-f', 'flv', `rtmp://b.rtmp.youtube.com/live2?backup=1`
 ];
 
 const ffmpeg = spawn('ffmpeg', ffmpegArgs);
