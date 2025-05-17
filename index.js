@@ -1,8 +1,8 @@
 const { spawn } = require('child_process');
 
 const audioURL = 'https://stream.zeno.fm/7wbprc3ce4qvv';
-const logoFile = 'logo.png';
-const streamKey = 'COLE_AQUI_SUA_CHAVE_DO_YOUTUBE';
+const logoFile = 'https://mapim.home.blog/wp-content/uploads/2025/05/dizzer1200-web.png?w=948';
+const streamKey = 'fs56-ztuy-kuz9-pzgq-amqk';
 
 const ffmpegArgs = [
   '-re', '-i', audioURL,
